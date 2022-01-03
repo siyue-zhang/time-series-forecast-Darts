@@ -1,5 +1,5 @@
 # time-series-forecast-Darts
-Time series forecast using darts Python library, which contains a variety of models
+Time series forecast using all-in-one open-source forecasting engine DARTS Python library.
 
 <image src=./images/workflow.JPG width=800>
 
