@@ -1,7 +1,8 @@
 # time-series-forecast-Darts
 Time series forecast using darts Python library, which contains a variety of models
 
-![](./images/workflow.jpg)
+<image src=./images/workflow.JPG width=800>
+
 
 ## Darts
 
