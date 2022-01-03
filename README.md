@@ -1,8 +1,11 @@
 # time-series-forecast-Darts
-Time series forecast using all-in-one open-source forecasting engine DARTS Python library.
+Time series forecast is a very commen problem in many industries, like price forecast in financial investment, weather forecast for renewable energy production, sales forecast for business and so on. To solve this type of problem, the analyst usually goes through following steps: explorary data analysis, data preprocessing, feature engineering, comparing different forecast models, model selection and evaluation.
 
 <image src=./images/workflow.JPG width=800>
 
+This project demonstrates a typical process of time series forecast of hourly wet bulb temperature in Singapore. Dataset is published by National Environment Agency, recorded at the Changi Climate Station from 1/1/1982 to 11/30/2021.
+
+Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 
 ## Darts
 

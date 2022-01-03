@@ -1,0 +1,55 @@
+# Metadata for Wet Bulb Temperature, Hourly
+---
+Identifier: 'c8340999-e29b-4f72-93d4-4f67d369f70e'
+Name: 'wet-bulb-temperature-hourly'
+Title: 'Wet Bulb Temperature, Hourly'
+Description: 'The hourly wet bulb temperature recorded at the Changi Climate Station'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'temperature'
+  - 'weather'
+  - 'wet bulb'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Ong Chin Hong'
+    Department: 'CCRS'
+    Email: 'ong_chin_hong@nea.gov.sg'
+  Admin 2:
+    Name: 'Ang Chieng Hai'
+    Department: 'CCRS'
+    Email: 'ang_chieng_hai@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1982-01-01 to 2019-05-31'
+Last Updated: '2021-12-16T02:49:21.822877'
+Resources:
+  -
+    Identifier: '0195dc7a-2f49-4107-ac7c-3112ca4a09a8'
+    Title: 'Wet Bulb Temperature - Hourly'
+    Url: 'https://storage.data.gov.sg/wet-bulb-temperature-hourly/resources/wet-bulb-temperature-hourly-2021-12-16T02-49-20Z.csv'
+    Format: 'CSV'
+    Coverage: '1982-01-01 to 2019-05-31'
+    Last Updated: '2021-12-16T02:49:20.763783'
+    Schema:
+      -
+        Name: 'wbt_date'
+        Title: 'Wbt date'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'wbt_time'
+        Title: 'Time'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Hour'
+        Description: 'the hour is from 1 to 24'
+      -
+        Name: 'wet_bulb_temperature'
+        Title: 'Wet Bulb Temperature-Hourly'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Degree Celsius'
