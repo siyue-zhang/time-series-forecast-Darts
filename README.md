@@ -13,7 +13,7 @@ Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 
 ## Darts
 
-[darts](https://github.com/unit8co/darts) is a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The library also makes it easy to backtest models, and combine the predictions of several models and external regressors.
+[darts](https://github.com/unit8co/darts) is a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The library makes it easy to compare various models' performance, backtest models, and combine the predictions of several models and external regressors.
 
 <p align=center>
 <image src=https://github.com/unit8co/darts/raw/master/static/images/darts-logo-trim.png width=400>
