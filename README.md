@@ -19,6 +19,8 @@ Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 <image src=https://github.com/unit8co/darts/raw/master/static/images/darts-logo-trim.png width=400>
 </p>
 
+Models available in DARTS, up to 7 Jan, 2022.
+  
 Model | Univariate | Multivariate | Probabilistic | Multiple-series training | Past-observed covariates support | Future-known covariates support | Reference
 --- | --- | --- | --- | --- | --- | --- | ---
 `ARIMA` | ✅ | | ✅ | | | ✅ |
