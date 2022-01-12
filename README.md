@@ -3,13 +3,34 @@ Time series forecast is a very commen problem in many industries, like price for
 
 <image src=./images/workflow.JPG width=800>
 
-## Dataset
+## Case 1
 
 This project demonstrates a typical process of time series forecast of hourly wet bulb temperature in Singapore. Dataset is published by National Environment Agency, recorded at the Changi Climate Station from 1/1/1982 to 11/30/2021.
 
 Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 
 <image src=./images/sample.png>
+
+## Case 2
+
+This project demonstrates a case study of multivariate time series forecast. I'm using Jena Climate dataset recorded by the Max Planck Institute for Biogeochemistry. The dataset consists of 21 features such as temperature, pressure, humidity etc, recorded once per 10 minutes, from 01/01/2021 to 07/01/2021.
+
+Link: https://www.bgc-jena.mpg.de/wetter/
+
+Raw data include following parameters as example:
+* Temperature in Kelvin Tpot (K)
+* Relative Humidityrh (%)
+* Wind Speed wv (m/s)
+
+<image src=./images/raw.png>
+
+Correlation matrix indicates they are not highly correlated, thus not redundant.
+
+<image src=./images/corr.JPG>
+
+Result shows the temperature forecast with three parameters does perform better than that with only one parameter.
+
+<image src=./images/sample2.png>
 
 ## Darts
 
