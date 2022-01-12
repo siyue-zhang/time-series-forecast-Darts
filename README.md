@@ -5,7 +5,7 @@ Time series forecast is a very commen problem in many industries, like price for
 
 ## Case 1
 
-This project demonstrates a typical process of time series forecast of hourly wet bulb temperature in Singapore. Dataset is published by National Environment Agency, recorded at the Changi Climate Station from 1/1/1982 to 11/30/2021.
+The first case demonstrates a typical process of time series forecast of hourly wet bulb temperature in Singapore. Dataset is published by National Environment Agency, recorded at the Changi Climate Station from 1/1/1982 to 11/30/2021.
 
 Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 
@@ -13,11 +13,11 @@ Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 
 ## Case 2
 
-This project demonstrates a case study of multivariate time series forecast. I'm using Jena Climate dataset recorded by the Max Planck Institute for Biogeochemistry. The dataset consists of 21 features such as temperature, pressure, humidity etc, recorded once per 10 minutes, from 01/01/2021 to 07/01/2021.
+The second demonstrates a case study of multivariate time series forecast. It uses Jena Climate dataset recorded by the Max Planck Institute for Biogeochemistry. The dataset consists of 21 features such as temperature, pressure, humidity etc, recorded once per 10 minutes, from 01/01/2021 to 07/01/2021.
 
 Link: https://www.bgc-jena.mpg.de/wetter/
 
-Raw data include following parameters as example:
+Raw data include following parameters as example, the target is to predict future temperature:
 * Temperature in Kelvin Tpot (K)
 * Relative Humidityrh (%)
 * Wind Speed wv (m/s)
@@ -26,11 +26,11 @@ Raw data include following parameters as example:
 
 Correlation matrix indicates they are not highly correlated, thus not redundant.
 
-<image src=./images/corr.JPG>
+<image src=./images/corr.JPG width=250>
 
 Result shows the temperature forecast with three parameters does perform better than that with only one parameter.
 
-<image src=./images/sample2.png>
+<image src=./images/sample2.JPG width=700>
 
 ## Darts
 
