@@ -3,7 +3,7 @@ Time series forecast is a very commen problem in many industries, like price for
 
 <image src=./images/workflow.JPG width=800>
 
-## Case 1
+## Case 1: Univariate Time-series Forecasting
 
 The first case demonstrates a typical process of time series forecast of hourly wet bulb temperature in Singapore. Dataset is published by National Environment Agency, recorded at the Changi Climate Station from 1/1/1982 to 11/30/2021.
 
@@ -11,7 +11,7 @@ Link: https://data.gov.sg/dataset/wet-bulb-temperature-hourly
 
 <image src=./images/sample.png>
 
-## Case 2
+## Case 2: Multivariate Time-series Forecasting
 
 The second demonstrates a case study of multivariate time series forecast. It uses Jena Climate dataset recorded by the Max Planck Institute for Biogeochemistry. The dataset consists of 21 features such as temperature, pressure, humidity etc, recorded once per 10 minutes, from 01/01/2021 to 07/01/2021.
 
