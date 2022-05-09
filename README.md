@@ -32,6 +32,12 @@ Result shows the temperature forecast with three parameters does perform better 
 
 <image src=./images/sample2.JPG width=700>
 
+## Case 3: Probabilistic RNN Forecasting
+  
+Some models are able to do probabilistic forecasting by assigning likelihood function. By default `TimeSeries.plot()` shows the median as well as the 5th and 95th percentiles (of the marginal distributions, if the TimeSeries is multivariate). It is possible to control by setting low_quantile and high_quantile. Predicted object includes N_steps to forecast and N_samples to predicted at each step, as a data array of (N_steps, N_samples).
+  
+<image src=./images/prob.png>
+  
 ## Darts
 
 [darts](https://github.com/unit8co/darts) is a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The library makes it easy to compare various models' performance, backtest models, and combine the predictions of several models and external regressors.
