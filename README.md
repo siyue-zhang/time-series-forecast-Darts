@@ -34,7 +34,7 @@ Result shows the temperature forecast with three parameters does perform better 
 
 ## Case 3: Probabilistic RNN Forecasting
   
-Some models are able to do probabilistic forecasting by assigning likelihood function. By default `TimeSeries.plot()` shows the median as well as the 5th and 95th percentiles (of the marginal distributions, if the TimeSeries is multivariate). It is possible to control by setting low_quantile and high_quantile. Predicted object includes N_steps to forecast and N_samples to predicted at each step, as a data array of (N_steps, N_samples).
+Some models are able to do probabilistic forecasting by assigning likelihood function. By default `TimeSeries.plot()` shows the median as well as the 5th and 95th percentiles (of the marginal distributions, if the TimeSeries is multivariate). It is possible to control by setting low_quantile and high_quantile. Predicted object includes **N_steps** to forecast and **N_samples** to predicted at each step, as a data array of (N_steps, N_samples).
   
 <image src=./images/prob.png>
   
