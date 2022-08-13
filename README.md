@@ -1,5 +1,5 @@
 # time-series-forecast-Darts
-Time series forecast is a very commen problem in many industries, like price forecast in financial investment, weather forecast for renewable energy production, sales forecast for business and so on. To solve this type of problem, the analyst usually goes through following steps: **explorary data analysis, data preprocessing, feature engineering, comparing different forecast models, model selection and evaluation**.
+**Time series forecast** is a very commen problem in many industries, like price forecast in financial investment, weather forecast for renewable energy production, sales forecast for business and so on. To solve this type of problem, the analyst usually goes through following steps: **explorary data analysis, data preprocessing, feature engineering, comparing different forecast models, model selection and evaluation**.
 
 <image src=./images/workflow.JPG width=800>
 
